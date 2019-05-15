@@ -1,0 +1,8 @@
+--------------to create new file :---------------------
+{touch filename.extension}
+filename is the name of the file .
+extension is the extension of the file like (.txt , .html ...etc).
+
+---------------------to initialize---------------------
+{git init}
+this command will initialize the current folder as a repository in your local machine , and a .git folder will be created inside the current folder.
