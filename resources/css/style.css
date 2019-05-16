@@ -14,12 +14,16 @@ body{
   overflow-x: hidden;
 }
 #navBar{
+  position:fixed;
+  top: 0px;
+  right: 0px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   border-bottom: 1px purple dashed;
   width: 100vw;
   padding: 5px 0px 3px 0px;
+  background-color: white;
 }
 .aItem{
   height: 40px;
@@ -44,6 +48,7 @@ a{
 #showCase{
   margin-bottom: 100px;
   border-bottom: 1px purple dashed;
+  width: 100vw;
 }
 #showCaseTitle{
   text-align: center;
