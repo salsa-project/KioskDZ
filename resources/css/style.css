@@ -11,7 +11,6 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  overflow-x: hidden;
 }
 #navBar{
   position:fixed;
@@ -33,7 +32,7 @@ a{
   text-decoration: none;
 }
 .break{
- border-right: 1px purple dashed;
+  border-right: 1px purple dashed;
   height: 40px;
 }
 #logo{
@@ -62,7 +61,7 @@ a{
 main{
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(450px,1fr));
-  width: 95vw;
+  width: 95%;
   margin-bottom: 100px;
 }
 .card{
@@ -78,7 +77,7 @@ main{
   box-shadow: 0px 0px 30px purple;
 }
 .cardTitle{
-  padding: 10px 0px;
+  padding: 15px 0px 0px;
 }
 .cardDescription{
   color: purple;
@@ -87,7 +86,7 @@ main{
 .cardImage{
   height: 300px;
   width: 70%;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
 footer{
   border-top: 1px purple dashed;
