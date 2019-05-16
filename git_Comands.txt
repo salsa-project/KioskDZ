@@ -44,4 +44,9 @@ ex: in teamWork some one add two files to the project .. when you open the folde
 1> {git reset --hard}
 1:this command will discard all the changes that made after the last commit.
 
---------------------------------------
+-------------git remove----------------------
+Coming Soon ..
+
+------------------git branch--------------------
+Coming Soon ..
+
